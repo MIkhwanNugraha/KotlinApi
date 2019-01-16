@@ -7,4 +7,10 @@
     <string name="Page_3">Page 3</string>
     <string name="match">my match</string>
     <string name="favorites">my favorites</string>
+    <string name="away_score">away score</string>
+    <string name="date">date</string>
+    <string name="home_score">home score</string>
+    <string name="home_name">home name</string>
+    <string name="away_name">away name</string>
+    <string name="vs">VS</string>
 </resources>

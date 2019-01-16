@@ -14,7 +14,7 @@ import android.widget.Spinner
 import org.jetbrains.anko.AnkoComponent
 
 
-class LastmatchFragment : Fragment(), {
+class LastmatchFragment : Fragment() {
     //private var events: MutableList<Event> = mutableListOf()
     //private lateinit var presenter: TeamsPresenter
     //private lateinit var adapter: TeamsAdapter

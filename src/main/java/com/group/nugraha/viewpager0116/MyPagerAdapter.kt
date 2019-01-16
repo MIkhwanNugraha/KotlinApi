@@ -20,9 +20,9 @@ class MyPagerAdapter (fm: FragmentManager): FragmentPagerAdapter(fm){
 
     override fun getPageTitle(p0: Int): CharSequence? {
         return when(p0){
-            0 -> "First Tab"
-            1 -> "Second Tab"
-            else -> "Third Tab"
+            0 -> "Last match"
+            1 -> "Next round"
+            else -> "Reserve"
         }
     }
 }

@@ -18,64 +18,64 @@
             android:padding="5dp">
 
         <TextView
-                android:id="@+id/tvb3"
+                android:id="@+id/tv_away_score"
                 android:layout_width="152dp"
                 android:layout_height="wrap_content"
-                android:text="awayscore"
+                android:text="@string/away_score"
                 android:textColor="#616161"
                 android:textSize="19sp"
                 android:textStyle="bold"
 
-                android:layout_alignStart="@+id/tva" android:layout_marginStart="155dp"
-                android:layout_alignTop="@+id/tva" android:layout_marginTop="28dp"/>
+                android:layout_alignStart="@+id/tv_VS" android:layout_marginStart="155dp"
+                android:layout_alignTop="@+id/tv_VS" android:layout_marginTop="28dp"/>
         <TextView
-                android:id="@+id/tva2"
+                android:id="@+id/tva_date"
                 android:layout_width="44dp"
                 android:layout_height="wrap_content"
                 android:textColor="#616161"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:layout_alignStart="@+id/tvVS"
-                android:layout_marginStart="234dp" android:layout_alignTop="@+id/tvVS" android:layout_marginTop="37dp"
-                android:text="date"/>
+                android:layout_alignStart="@+id/tv_home_name"
+                android:layout_marginStart="234dp" android:layout_alignTop="@+id/tv_home_name" android:layout_marginTop="37dp"
+                android:text="@string/date"/>
         <TextView
-                android:id="@+id/tvVS2"
+                android:id="@+id/tv_home_score"
                 android:layout_width="156dp"
                 android:layout_height="wrap_content"
                 android:textColor="#616161"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:text="homescore" android:layout_alignParentEnd="true" android:layout_marginEnd="23dp"
-                android:layout_alignTop="@+id/tvVS"/>
+                android:text="@string/home_score" android:layout_alignParentEnd="true" android:layout_marginEnd="23dp"
+                android:layout_alignTop="@+id/tv_home_name"/>
         <TextView
-                android:id="@+id/tvVS"
+                android:id="@+id/tv_home_name"
                 android:layout_width="156dp"
                 android:layout_height="wrap_content"
                 android:textColor="#616161"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:text="homename"/>
+                android:text="@string/home_name"/>
         <TextView
-                android:id="@+id/tvb"
+                android:id="@+id/tv_away_name"
                 android:layout_width="152dp"
                 android:layout_height="wrap_content"
-                android:text="awayname"
+                android:text="@string/away_name"
                 android:textColor="#616161"
                 android:textSize="18sp"
                 android:textStyle="bold"
 
-                android:layout_alignStart="@+id/tva" android:layout_marginStart="-40dp"
-                android:layout_alignTop="@+id/tva" android:layout_marginTop="32dp"/>
+                android:layout_alignStart="@+id/tv_VS" android:layout_marginStart="-40dp"
+                android:layout_alignTop="@+id/tv_VS" android:layout_marginTop="32dp"/>
         <TextView
-                android:id="@+id/tva"
+                android:id="@+id/tv_VS"
                 android:layout_width="43dp"
                 android:layout_height="wrap_content"
                 android:textColor="#616161"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:layout_alignStart="@+id/tvVS"
-                android:layout_marginStart="42dp" android:layout_alignTop="@+id/tvVS" android:layout_marginTop="38dp"
-                android:text="VS"/>
+                android:layout_alignStart="@+id/tv_home_name"
+                android:layout_marginStart="42dp" android:layout_alignTop="@+id/tv_home_name" android:layout_marginTop="38dp"
+                android:text="@string/vs"/>
 
 
     </RelativeLayout>
