@@ -3,13 +3,12 @@ package com.group.nugraha.viewpager0116.last
 import android.content.Context
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
-import android.view.OrientationEventListener
+
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import com.group.nugraha.viewpager0116.model.Event
-import com.squareup.picasso.Picasso
-import kotlinx.android.synthetic.main.list_item.view.*
+import com.group.nugraha.viewpager0116.R
 import org.jetbrains.anko.find
 
 class LastmatchAdapter (val context: Context, private val events: List<Event>, private val listener: (Event) -> Unit)
