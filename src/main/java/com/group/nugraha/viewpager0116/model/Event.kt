@@ -2,7 +2,7 @@ package com.group.nugraha.viewpager0116.model
 
 import com.google.gson.annotations.SerializedName
 
-class Event (
+data class Event (
     @SerializedName("strHomeTeam")
     val strHomeTeam: String?=null,
 
