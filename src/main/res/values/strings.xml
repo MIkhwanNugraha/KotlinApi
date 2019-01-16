@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ViewPager0116</string>
+
+
+    <string name="Page_1">Page 1</string>
+    <string name="Page_2">Page 2</string>
+    <string name="Page_3">Page 3</string>
+    <string name="match">my match</string>
+    <string name="favorites">my favorites</string>
+</resources>
